@@ -1985,13 +1985,6 @@ caniuse-lite@^1.0.30001254, caniuse-lite@^1.0.30001370:
   resolved "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001375.tgz#8e73bc3d1a4c800beb39f3163bf0190d7e5d7672"
   integrity sha512-kWIMkNzLYxSvnjy0hL8w1NOaWNr2rn39RTAVyIwcw8juu60bZDWiF1/loOYANzjtJmy6qPgNmn38ro5Pygagdw==
 
-canvas@~1.1.6:
-  version "1.1.6"
-  resolved "https://registry.npmjs.org/canvas/-/canvas-1.1.6.tgz#d84b088f3bcd3840fe14977cd3625f5fe89f81ee"
-  integrity sha1-2EsIjzvNOED+FJd802JfX+ifge4=
-  dependencies:
-    nan "~1.2.0"
-
 cardinal@^2.1.1:
   version "2.1.1"
   resolved "https://registry.npmmirror.com/cardinal/-/cardinal-2.1.1.tgz#7cc1055d822d212954d07b085dea251cc7bc5505"
@@ -3978,13 +3971,6 @@ ignore@^5.2.0:
   resolved "https://registry.npmmirror.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
-imagediff@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.npmjs.org/imagediff/-/imagediff-1.0.8.tgz#7e23153e8104b0e0be125e3fa56d9dd37ada5505"
-  integrity sha1-fiMVPoEEsOC+El4/pW2d03raVQU=
-  optionalDependencies:
-    canvas "~1.1.6"
-
 import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
@@ -5384,11 +5370,6 @@ mute-stream@~0.0.4:
   version "0.0.8"
   resolved "https://registry.npmmirror.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
-
-nan@~1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/nan/-/nan-1.2.0.tgz#9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef"
-  integrity sha1-nE1jzp5PjpXeLVdOGPeSVVSoqO8=
 
 nanoid@^3.3.4:
   version "3.3.4"
