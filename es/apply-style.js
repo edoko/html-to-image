@@ -15,6 +15,8 @@ export function applyStyle(node, options) {
             style[key] = manual[key];
         });
     }
+    const ele = node.querySelectorAll('.visible-element');
+    ele.forEach((sub) => sub.setAttribute('style', 'display:flex'));
     return node;
 }
 //# sourceMappingURL=apply-style.js.map

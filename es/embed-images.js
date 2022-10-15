@@ -37,17 +37,10 @@ async function embedChildren(clonedNode, options) {
     const deferreds = children.map((child) => embedImages(child, options));
     await Promise.all(deferreds).then(() => clonedNode);
 }
-async function visibleElement(clonedNode) {
-    const element = clonedNode.querySelectorAll('.visible-element');
-    if (element) {
-        clonedNode.style.setProperty('display', 'flex');
-    }
-}
 export async function embedImages(clonedNode, options) {
     if (clonedNode instanceof Element) {
         await embedBackground(clonedNode, options);
         await embedImageNode(clonedNode, options);
-        await visibleElement(clonedNode);
         await embedChildren(clonedNode, options);
     }
 }

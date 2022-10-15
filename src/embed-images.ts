@@ -60,13 +60,6 @@ async function embedChildren<T extends HTMLElement>(
   await Promise.all(deferreds).then(() => clonedNode)
 }
 
-async function visibleElement<T extends HTMLElement>(clonedNode: T) {
-  const element = clonedNode.querySelectorAll('.visible-element')
-  if (element) {
-    clonedNode.style.setProperty('display', 'flex')
-  }
-}
-
 export async function embedImages<T extends HTMLElement>(
   clonedNode: T,
   options: Options,
@@ -74,7 +67,6 @@ export async function embedImages<T extends HTMLElement>(
   if (clonedNode instanceof Element) {
     await embedBackground(clonedNode, options)
     await embedImageNode(clonedNode, options)
-    await visibleElement(clonedNode)
     await embedChildren(clonedNode, options)
   }
 }

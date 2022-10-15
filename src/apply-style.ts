@@ -25,5 +25,9 @@ export function applyStyle<T extends HTMLElement>(
     })
   }
 
+  const ele = node.querySelectorAll('.visible-element')
+
+  ele.forEach((sub) => sub.setAttribute('style', 'display:flex'))
+
   return node
 }
